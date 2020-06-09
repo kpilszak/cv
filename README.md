@@ -1,17 +1,28 @@
-# CV base
+<h1 align="right">CV</h1><br>
 
-Podstawa projektu do pobrania. Pełen tutorial z opisem na blogu Fly Nerd: CV w HTML / CSS
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Supports](#supports)
+* [Setup](#setup)
+* [Sources](#sources)
 
-### Zakres
+## General info
+This project is presenting CV.  
+	
+## Technologies
+Project is created with:
+* HTML5
+* CSS3
+* Flexbox 
 
-Celem projektu jest wykorzystanie stworzenie strony www własnego CV za użyciem HTML i CSS.
+## Supports
+Recommended minimal browser versions:
+* Chrome 83
+* Opera 68
 
-### Z tym tutorialem:
-- wykorzystasz znaczniki HTML5
-- ostylujesz stronę za pomocą CSS
-- stworzysz prosty, czytelny i estetyczny layout
-- wykorzystasz flexbox do tworzenia układu strony
-- przystosujesz stronę pod urządzenia mobilne (RWD)
+## Setup
+To run this project, open this in a new tab: <a href="https://kpilszak.github.io/cv/">https://kpilszak.github.io/cv/</a>
 
-### Wymagania
-Do wykonania zadań konieczna jest podstawowa znajomość HTML i CSS!
+## Sources
+This project is created with Flynerd's tutorial <a href="https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html">https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html</a>
