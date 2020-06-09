@@ -37,7 +37,7 @@ header section {
 }
 
 header img {
-  border-radius: 50%/50%;
+  border-radius: 50%;
   max-width: 150px;
 }
 
@@ -46,15 +46,63 @@ h1 {
   margin: 1em 0;
 }
 
+h3 {
+  text-transform: uppercase;
+}
+
+h3,
+h4 {
+  font-weight: bold;
+}
+
 main {
   max-width: 1140px;
 }
 
-.course {}
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
 
-.course .title {}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
 
-.course .descrition {}
+.course,
+.skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  color: #509e98;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.course .description {
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+
+.course .link {
+  -ms-flex: 0 0 10%;
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+
+.course .link img {
+  max-height: 50px;
+  margin-left: 50%;
+}
+
+.course .description p {
+  padding-left: 1em;
+}
 
 .school span {
   color: #A7B8BF;
