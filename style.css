@@ -23,6 +23,7 @@ footer {
 }
 
 header {
+  color: white;
   padding: 2em;
   text-align: center;
   background-size: cover;
@@ -32,6 +33,7 @@ header {
 
 header section {
   margin: 0 auto;
+  max-width: 640px;
 }
 
 header img {
@@ -40,6 +42,7 @@ header img {
 }
 
 h1 {
+  text-transform: uppercase;
   margin: 1em 0;
 }
 
