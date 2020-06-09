@@ -1,26 +1,33 @@
 /*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
 
 body {
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
-section{
+section {
   margin: 1em;
   padding: 1em;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   margin: 0 auto;
 }
 
 header {
   padding: 2em;
   text-align: center;
-  /*background-image: url('sciezka');*/
+  background-size: cover;
+  background-image: url('img/bg.jpg');
+  /*  background-position: center;*/
 }
 
 header section {
@@ -28,7 +35,8 @@ header section {
 }
 
 header img {
-
+  border-radius: 50%/50%;
+  max-width: 150px;
 }
 
 h1 {
@@ -39,19 +47,16 @@ main {
   max-width: 1140px;
 }
 
-.course {
-}
+.course {}
 
-.course .title {
-}
+.course .title {}
 
-.course .descrition {
-}
+.course .descrition {}
 
 .school span {
   color: #A7B8BF;
 }
 
 footer {
- padding: 1em;
+  padding: 1em;
 }
