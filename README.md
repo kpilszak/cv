@@ -8,7 +8,7 @@
 * [Sources](#sources)
 
 ## General info
-This project is presenting CV.  
+This project presents CV.  
 	
 ## Technologies
 Project is created with:
