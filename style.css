@@ -28,7 +28,7 @@ header {
   text-align: center;
   background-size: cover;
   background-image: url('img/bg.jpg');
-  /*  background-position: center;*/
+  background-position: fixed;
 }
 
 header section {
