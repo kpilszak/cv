@@ -121,19 +121,25 @@ a {
   color: #A7B8BF;
 }
 
-footer {
-  padding: 1em;
-}
-
 .skills .column ul,
 ul.job-description {
   list-style-type: none;
+}
+
+ul.job-description li:before {
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
 }
 
 .skills .column ul > li:before {
   content: "►";
   padding-right: 0.5em;
   color: #509e98;
+}
+
+.job {
+  padding: 0.5em;
 }
 
 .education {
@@ -153,4 +159,8 @@ ul.job-description {
 .job-title span {
   color: #889499;
   text-decoration: underline;
+}
+
+footer {
+  padding: 1em;
 }
