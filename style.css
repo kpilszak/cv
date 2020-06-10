@@ -135,3 +135,22 @@ ul.job-description {
   padding-right: 0.5em;
   color: #509e98;
 }
+
+.education {
+  padding: 0.5em;
+}
+
+.education .description {
+  font-style: italic;
+}
+
+.school,
+.job-title {
+  text-transform: capitalize;
+}
+
+.school span,
+.job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
