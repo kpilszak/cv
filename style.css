@@ -63,7 +63,6 @@ main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-<<<<<<< HEAD
 .fab {
   border: 1px solid white;
   font-size: 1.5em;
@@ -79,14 +78,11 @@ a .fab {
   color: white;
 }
 
-=======
->>>>>>> f5bead0401b817ed2fe6f0bf48256336926db11e
 a {
   color: inherit;
   text-decoration: inherit;
 }
 
-<<<<<<< HEAD
 a:hover {
   opacity: 0.5;
 }
@@ -97,8 +93,6 @@ a:hover {
 
 }
 
-=======
->>>>>>> f5bead0401b817ed2fe6f0bf48256336926db11e
 .course,
 .skills {
   display: -ms-flexbox;
@@ -106,7 +100,6 @@ a:hover {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-<<<<<<< HEAD
 
 .course .title {
   color: #509e98;
@@ -147,35 +140,6 @@ a:hover {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
-=======
-
-.course .title {
-  color: #509e98;
-  -ms-flex: 0 0 30%;
-  flex: 0 0 30%;
-  max-width: 30%;
-}
-
-.course .description {
-  -ms-flex: 0 0 60%;
-  flex: 0 0 60%;
-  max-width: 60%;
-}
-
-.course .link {
-  -ms-flex: 0 0 10%;
-  flex: 0 0 10%;
-  max-width: 10%;
-}
-
-.course .link img {
-  max-height: 50px;
-  margin-left: 50%;
-}
-
-.course .description p {
-  padding-left: 1em;
->>>>>>> f5bead0401b817ed2fe6f0bf48256336926db11e
 }
 
 .school span {
