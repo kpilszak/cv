@@ -68,6 +68,10 @@ a {
   text-decoration: inherit;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
 .course,
 .skills {
   display: -ms-flexbox;
