@@ -179,7 +179,12 @@ footer {
   padding: 1em 1.5em;
   background: #A7B8BF;
   color: white;
+  font-size: 0.8em;
   text-align: right;
+}
+
+.rodo {
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
