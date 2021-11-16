@@ -16,11 +16,11 @@
 <body>
   <header>
     <div>
-      <img src='img/avatar.jpeg' alt='Avatar' />
+      <img src='img/avatar.jpg' alt='Avatar' />
     </div>
     <h1>klaudia pilszak</h1>
     <section>
-      <p>Hello! I’m an engineer with a huge passion for programming. I work as Java Developer.<br> The area of my development is both backend and frontend.<br> I'm focused and well-organized person.</p>
+      <p>Hello! I’m an engineer with a huge passion for web development.<br>I work as Java Developer.<br> The area of my interest is both backend and frontend.<br> I'm focused and well-organized person.</p>
       <p class="contact">
         <i class="fa fa-phone fa-flip-horizontal"></i><span class="contact-data">+48 502 359 638</span>
       </p>
@@ -44,19 +44,19 @@
           <h4>Good knowledge</h4>
           <ul>
             <li>Java</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>Spring</li>
+            <li>Hibernate</li>
           </ul>
         </div>
         <div class='column'>
           <h4>Basic knowledge</h4>
           <ul>
-            <li>Spring</li>
-            <li>Hibernate</li>
-            <li>Groovy</li>
-            <li>JavaScript</li>
             <li>SQL</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>Maven</li>
+            <li>Gradle</li>
             <li>GIT</li>
           </ul>
         </div>
@@ -74,18 +74,35 @@
 
     <section>
       <h3>Experience</h3>
-
-      <article class='job'>
+	  
+	  <article class='job'>
         <div class='job-title'>
-          <span>09.2020 - now</span> <strong><a href='https://sensilabs.pl'>Sensi Labs</a></strong><br>
+          <span>10.2021 - now</span> <strong><a href='https://clurgo.com/pl/'>Clurgo</a></strong><br>
           <strong>Position:</strong> Java Developer
         </div>
         <div>
-          <p><strong>Tech stack:</strong> Java / Kotlin / Spring / PostgreSQL / Elasticsearch / Docker</p>
+          <p><strong>Tech stack:</strong> Java / Spring / Oracle SQL </p>
           <ul class='job-description'>
-            <li>Develop applications</li>
-            <li>Co-operate with frontend and mobile developers</li>
-            <li>Implement new requirements</li>
+            <li>Develop web application for banking industry. Platform for Nordics to calculate mortgage they can afford</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class='job'>
+        <div class='job-title'>
+          <span>09.2020 - 09.2021</span> <strong><a href='https://sensilabs.pl'>Sensi Labs</a></strong><br>
+          <strong>Position:</strong> Java Developer
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> Java / Kotlin / Spring / PostgreSQL / Elasticsearch / RabbitMQ / Docker</p>
+          <ul class='job-description'>
+            <li>Develop web application for automotive industry. Auction platform for british car dealers to buy and sell secondhand cars</li>
+            <li>Create REST API from scratch with cooperation of frontend and mobile developers</li>
+			<li>Redesign notifications component in the purpose of creating and sending thousands of them asynchronously</li>
+			<li>Separate requesting data from HPI Cap service integration. Add logic to fetch data conditionally to prevent unnecessary fees</li>
+			<li>Develop mobile application for health industry. App for people suffering from hashimoto disease to keep and analyze health test results</li>
+			<li>Integrate with Google Play Subscriptions</li>
+			<li>Add functionalities to provide test results data</li>
           </ul>
         </div>
       </article>
@@ -95,13 +112,14 @@
           <span>06.2019 - 09.2020</span> <strong><a href='https://lingarogroup.com'>Lingaro</a></strong><br> <strong>Position:</strong> Java Developer
         </div>
         <div>
-          <p><strong>Tech stack:</strong> Java / Groovy / Grails / Spring / Hibernate / GORM / JavaScript / Oracle SQL</p>
+          <p><strong>Tech stack:</strong> Java / Groovy / Grails / Spring / Hibernate / GORM / JavaScript / Oracle SQL / Flyway</p>
           <ul class='job-description'>
-            <li>Develop web application for FMCG industry</li>
-            <li>Co-operate with database developers</li>
-            <li>Implement new requirements</li>
-            <li>Support users and fix bugs</li>
-            <li>Update technical documentation</li>
+            <li>Develop web application for FMCG industry. Platform for business clients to manage FMCG products lifecycle</li>
+			<li>Add / change FMCG product management flow features</li>
+			<li>Implement changes to integration with external service</li>
+            <li>Change, execute and analyze performance tests using Gatling</li>
+            <li>Deploy on production directly on Tomcat server</li>
+            <li>Support users on L3 and fix production bugs in cooperation with team from external service</li>
           </ul>
         </div>
       </article>
@@ -113,7 +131,7 @@
         <div>
           <p><strong>Tech stack:</strong> Java / Docker</p>
           <ul class='job-description'>
-            <li>Develop Telco project using MediationZone platform</li>
+            <li>Develop Telco demo project using MediationZone platform</li>
             <li>Develop network services using JSLEE</li>
             <li>Set environment using Docker</li>
           </ul>
@@ -127,7 +145,7 @@
 
       <article class='education'>
         <div class='school'>
-          <span>2017-now</span> <strong><a href='http://www.europeanuniversity.edu.pl'>European University Of Information Technology And Economics In Warsaw</a></strong>
+          <span>2017-2021</span> <strong><a href='http://www.europeanuniversity.edu.pl'>European University Of Information Technology And Economics In Warsaw</a></strong>
         </div>
         <div class='description'>
           Bachelor's Degree of Computer Science
@@ -179,17 +197,6 @@
 
       <article class='course'>
         <div class='title'>
-          IoT Project
-        </div>
-        <div class='description'>
-          <p>Develop script on Raspberry Pi – receiving Bluetooth signal from iNode which converted shows position and temperature.</p>
-        </div>
-        <div class='link'>
-        </div>
-      </article>
-
-      <article class='course'>
-        <div class='title'>
           <a href='https://www.udemy.com/course/the-web-developer-bootcamp/'>Udemy: The Web Developer Bootcamp by Colt Steele</a>
         </div>
         <div class='description'>
@@ -198,17 +205,6 @@
         <div class='link'>
           <a href='https://kpilszak.github.io/rgb-color-game/'><img src='img/qr1.jpg' alt='qr' /></a>
           <a href='https://kpilszak.github.io/to-do-list/'><img src='img/qr2.jpg' alt='qr' /></a>
-        </div>
-      </article>
-
-      <article class='course'>
-        <div class='title'>
-          Java workshops at Polish-Japanese Academy of Information Technology in Warsaw
-        </div>
-        <div class='description'>
-          <p>Learn Java programming language. Develop simple console application - florist.</p>
-        </div>
-        <div class='link'>
         </div>
       </article>
 
