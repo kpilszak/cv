@@ -15,13 +15,20 @@
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
-  --h1-font-size: 1.5rem;
+  /* --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
   --h4-font-size: .95rem;
   --normal-font-size: .938rem;
   --small-font-size: .875rem;
-  --smaller-font-size: .813rem;
+  --smaller-font-size: .813rem; */
+  --h1-font-size: 1rem;
+  --h2-font-size: .77rem;
+  --h3-font-size: .725rem;
+  --h4-font-size: .70rem;
+  --normal-font-size: .6rem;
+  --small-font-size: .53rem;
+  --smaller-font-size: .44rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -86,11 +93,11 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 
 .scale-cv .section-title {
-  margin-bottom: .55rem;
+  /* margin-bottom: .55rem; */
 }
 
 .scale-cv .experience-title {
@@ -99,7 +106,7 @@ body.scale-cv {
 
 .scale-cv .resume__left,
 .scale-cv .resume__right {
-  padding: 0 .7rem;
+  /* padding: 0 .7rem; */
 }
 
 .scale-cv .home__img {
@@ -167,7 +174,7 @@ body.scale-cv {
 }
 
 body {
-  margin: 0 0 var(--header-height) 0;
+  margin: 0 0 0 0;
   padding: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -206,7 +213,7 @@ img {
 
 /*========== CLASS CSS ==========*/
 .section {
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .section-title {
@@ -249,13 +256,13 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, .1);
-  transition: .3s;
+  /* box-shadow: 0 -1px 4px rgba(0, 0, 0, .1); */
+  /* transition: .3s; */
 }
 
 /*========== NAV ==========*/
 .nav {
-  height: var(--header-height);
+  /* height: var(--header-height); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -269,10 +276,10 @@ img {
     width: 100%;
     padding: 2rem 1.5rem;
     background-color: var(--body-color);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, .1); */
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
-    transition: .3s;
+    /* transition: .3s; */
   }
 }
 
@@ -300,7 +307,7 @@ img {
 .nav__link {
   display: flex;
   flex-direction: column;
-  font-size: var(--smaller-font-size);
+  font-size: var(--smaller-font-size);.home__container
   color: var(--text-color-light);
   font-weight: var(--font-medium);
 }
@@ -315,7 +322,7 @@ img {
 }
 
 .show-menu {
-  bottom: var(--header-height);
+  /* bottom: var(--header-height); */
 }
 
 .active-link {
@@ -329,7 +336,7 @@ img {
 }
 
 .home__container {
-  gap: 3rem;
+  /* gap: 3rem; */
 }
 
 .home__data {
@@ -592,7 +599,7 @@ img {
 /* Classes modified for large screen size */
 /* @media screen and (min-width: 968px) { */
 body {
-  margin: 3rem 0;
+  /* margin: 3rem 0; */
 }
 
 .bd-container {
@@ -609,7 +616,7 @@ body {
   display: grid;
   grid-template-columns: .5fr 1fr;
   background-color: var(--container-color);
-  box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+  /* box-shadow: 0 0 8px rgba(13, 12, 12, .15); */
 }
 
 .resume__left {
@@ -618,7 +625,7 @@ body {
 
 .resume__left,
 .resume__right {
-  padding: 0 1.5rem;
+  /* padding: 0 1.5rem; */
 }
 
 .generate-pdf {
@@ -651,7 +658,8 @@ body {
 
   @page {
     size: A4;
-    margin: 0;
+    margin: 0.7rem 0 0 1rem;
+    padding: 0;
   }
 
   /* Hide all content except for the area with id="area-cv" */
@@ -663,6 +671,10 @@ body {
   #area-cv,
   #area-cv * {
     visibility: visible;
+  }
+
+  #languages {
+    page-break-inside: avoid;
   }
 
 }
