@@ -4,7 +4,7 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  
+
   /*========== Colors ==========*/
   --title-color: #0B0A0A;
   --text-color: #403A3A;
@@ -38,7 +38,9 @@
 }
 
 /*========== BASE ==========*/
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -69,11 +71,17 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3, ul, p {
+h1,
+h2,
+h3,
+ul,
+p {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -128,7 +136,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
-  box-shadow: 0 -1px 4px rgba(0, 0 , 0, .1);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, .1);
   transition: .3s;
 }
 
@@ -326,7 +334,7 @@ img {
 }
 
 .experience__line {
-  height: 105%;
+  height: 101.7%;
 }
 
 .education__data,
@@ -394,7 +402,8 @@ img {
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
-.skills__content {
+.skills__content,
+.languages__content {
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -402,13 +411,14 @@ img {
   gap: 0;
 }
 
-.skills__name {
+.skills__name .languages__name {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
 }
 
-.skills__circle {
+.skills__circle,
+.languages__circle {
   display: inline-block;
   width: 5px;
   height: 5px;
@@ -416,7 +426,6 @@ img {
   border-radius: 50%;
   margin-right: .75rem;
 }
-
 
 /*========== CERTIFICATES ==========*/
 .certificate__title {
@@ -428,18 +437,34 @@ img {
   color: var(--text-color-light);
 }
 
-/*========== REFERENCES ==========*/
-
-
-/*========== INTERESTS ==========*/
-
-
 /* Scroll top */
+.scrolltop {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem;
+  background-color: var(--container-color-alt);
+  border-radius: .4rem;
+  z-index: var(--z-tooltip);
+  transition: .4s;
+  visibility: hidden;
+}
 
+.scrolltop__icon {
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.show-hidden {
+  visibility: visible;
+  bottom: 5rem;
+}
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
 
 
 /* Classes modified for large screen size */
-

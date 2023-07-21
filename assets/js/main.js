@@ -27,11 +27,11 @@ navLink.forEach(n => n.addEventListener('click', listAction));
 const sections = document.querySelectorAll('section[id]');
 
 function scrollActive() {
-    const scrollY = window.pageYOffset;
+    const scrollY = window.scrollY; 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 50;
-        const sectionId = current.getAttribute('id');
+        let sectionId = current.getAttribute('id');
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link');
@@ -44,7 +44,13 @@ function scrollActive() {
 window.addEventListener('scroll', scrollActive);
 
 /*==================== SHOW SCROLL TOP ====================*/ 
+function scrollTop() {
+    const scrollTop = document.getElementById('scroll-top');
+    if (this.scrollY >= 200) scrollTop.classList.add('show-scroll');
+    else scrollTop.classList.remove('show-scroll');
+}
 
+window.addEventListener('scroll', scrollTop);
 
 /*==================== DARK LIGHT THEME ====================*/ 
 
