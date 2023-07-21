@@ -419,7 +419,14 @@ img {
 
 
 /*========== CERTIFICATES ==========*/
+.certificate__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
 
+.certificate__title:hover {
+  color: var(--text-color-light);
+}
 
 /*========== REFERENCES ==========*/
 
