@@ -52,9 +52,6 @@ function scrollTop() {
 
 window.addEventListener('scroll', scrollTop);
 
-/*==================== DARK LIGHT THEME ====================*/ 
-
-
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/ 
 
 
