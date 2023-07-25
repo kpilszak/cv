@@ -82,13 +82,6 @@ let opt = {
 function generateResume() {
     html2pdf(areaCv, opt);
 }
-
-// script.js
-function generatePDF() {
-    const doc = new jsPDF();
-    doc.text("Hello world!", 10, 10);
-    doc.save("a4.pdf");
-}
     
 // When the button is clicked, it executes the three functions
 resumeButton.addEventListener('click', () => {
@@ -98,7 +91,6 @@ resumeButton.addEventListener('click', () => {
 
     // 2. The PDF is generated
     generateResume();
-    // generatePDF();
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
     setTimeout(removeScale, 5000);
